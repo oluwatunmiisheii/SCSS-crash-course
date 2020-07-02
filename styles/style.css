@@ -12,6 +12,10 @@ header button {
   background: #e4bab4;
 }
 
+header button::after {
+  content: 'Helooo';
+}
+
 header button:hover {
   background: red;
 }

@@ -1,0 +1,17 @@
+header {
+  background: lightblue;
+  display: flex;
+  align-items: center;
+
+  button {
+    background: $primaryBtn;
+
+    &::after {
+      content: 'Helooo';
+    }
+
+    &:hover {
+      background: $bgSecondary;
+    }
+  }
+}

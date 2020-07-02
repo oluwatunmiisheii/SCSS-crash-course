@@ -1,16 +1,3 @@
 $primaryBtn: #e4bab4;
 $bgSecondary: red;
-
-header {
-  background: lightblue;
-  display: flex;
-  align-items: center;
-
-  button {
-    background: $primaryBtn;
-
-    &:hover {
-      background: $bgSecondary;
-    }
-  }
-}
+@import './header';
