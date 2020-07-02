@@ -1,11 +1,16 @@
 $primaryBtn: #e4bab4;
+$bgSecondary: red;
 
 header {
   background: lightblue;
   display: flex;
   align-items: center;
-}
 
-header button {
-  background: $primaryBtn;
+  button {
+    background: $primaryBtn;
+
+    &:hover {
+      background: $bgSecondary;
+    }
+  }
 }

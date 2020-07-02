@@ -11,4 +11,8 @@ header {
 header button {
   background: #e4bab4;
 }
+
+header button:hover {
+  background: red;
+}
 /*# sourceMappingURL=style.css.map */
