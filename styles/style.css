@@ -1,0 +1,14 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header button {
+  background: #e4bab4;
+}
+/*# sourceMappingURL=style.css.map */
