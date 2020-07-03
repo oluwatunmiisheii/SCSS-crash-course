@@ -1,13 +1,6 @@
-@mixin flexCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 header {
   @include flexCenter();
   background: green;
-  height: 100vh;
 
   button {
     background: $primaryBtn;
