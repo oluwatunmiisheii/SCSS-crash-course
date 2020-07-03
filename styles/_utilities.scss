@@ -1,0 +1,27 @@
+$spaceamounts: (1, 2, 3, 4, 5);
+
+.container {
+  padding: 0 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+// Margin and Padding
+@each $space in $spaceamounts {
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  .mx-#{$space} {
+    margin: 0 #{$space}rem;
+  }
+
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+}
