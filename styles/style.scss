@@ -1,7 +1,10 @@
 @import './variables';
 @import './header';
-@import './mixins';
 
 .contact {
-  @include flexCenter()
+  @include flexCenter(row, $secondaryColor)
+}
+
+.footer {
+  @extend header
 }
